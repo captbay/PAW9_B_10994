@@ -77,7 +77,7 @@
 export default {
   data: () => ({
     loading: false,
-    selection: 1,
+    selection: 0,
   }),
 };
 </script>
