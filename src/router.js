@@ -39,6 +39,18 @@ const router = new VueRouter({
           name: "Tugas",
           component: importComponent("TodoList/ListItemTUGAS"),
         },
+        // To pwa UGD
+        {
+          path: "/pwaUGD",
+          name: "pwaUGD",
+          component: importComponent("pwa_0994/MakananList"),
+        },
+        // To pwa tuags
+        {
+          path: "/pwaTGS",
+          name: "pwaTGS",
+          component: importComponent("pwa_0994/BuahList"),
+        },
       ],
     },
   ],
